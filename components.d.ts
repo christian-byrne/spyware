@@ -8,6 +8,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ComfySpywareTerminal: typeof import('./src/components/ComfySpywareTerminal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SpywareDemo: typeof import('./src/components/SpywareDemo.vue')['default']

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-// The SpywareDemo component will be auto-imported
+// The ComfySpywareTerminal component will be auto-imported
 </script>
 
 <template>
-  <SpywareDemo />
+  <ComfySpywareTerminal />
 </template>
