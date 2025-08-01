@@ -49,6 +49,9 @@ function redo() {
         Spyware
       </h1>
       <p>use <span class="text-blue-300">window.spywareState.value</span> in console to play with undo/redo</p>
+      <router-link to="/vue-demo" class="text-blue-400 mt-2 underline inline-block hover:text-blue-300">
+        → View Vue Integration Demo
+      </router-link>
     </div>
 
     <div flex="~ gap-2">
